@@ -65,7 +65,6 @@ function appendMenuItem(tagName,id,content){
     // 绑定目录li点击事件,点击时跳转到对应的位置
     $('#menu_nav_ol li').on('click',function(){
         let targetId = $(this).attr('class');
-        //$("#"+targetId)[0].scrollIntoView(true);
         $("#"+targetId)[0].scrollIntoView({
           behavior: "smooth",  //behavior: "auto" | "instant" | "smooth"
           block: "center",      //block: "start" | "center" | "end" | "nearest"
@@ -113,11 +112,3 @@ window.onmousewheel = document.onmousewheel = scrollFunc;   //滚动滑轮触发
 if (document.addEventListener) {//firefox  
         document.addEventListener('DOMMouseScroll', scrollFunc, false);  
 }
-
-/*
-<style id="__web-inspector-hide-shortcut-style__" type="text/css">
-.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
-{
-    visibility: hidden !important;
-}
-</style>*/
