@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         简书阅读增强脚本
-// @namespace    http://tampermonkey.net/
-// @version      1.1
+// @namespace    https://github.com/pcy190/TamperMonkeyScript
+// @version      1.2
 // @description  生成简书侧边栏目录、去除侧边广告、滚动隐藏顶部导航栏
 // @author       HAPPY
 // @match        http://www.jianshu.com/p/*
